@@ -666,7 +666,7 @@ footer{
 }
 
 /* ----- MEDIA QUERY == 1024px / RESPONSIVE ----- */
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 1200px){
     .featured-text{
         padding: 0;
     }
@@ -677,10 +677,14 @@ footer{
 }
 
 /* ----- MEDIA QUERY == 900px / RESPONSIVE ----- */
-@media only screen and (max-width: 900px) {
-    .nav-button{
-        display: flex;
-        width:5%;
+@media only screen and (max-width: 1100px) {
+    /* .toggle-theme{
+        display:inline;
+        width:20%;
+        
+    } */
+    #nav-download-cv{
+        display:none;
     }
     .nav-menu.responsive{
         left: 0;
