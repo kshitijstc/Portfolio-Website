@@ -666,7 +666,7 @@ footer{
 }
 
 /* ----- MEDIA QUERY == 1024px / RESPONSIVE ----- */
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 1320px){
     .featured-text{
         padding: 0;
     }
