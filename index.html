@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- --------- Different font families ------- -->
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans&family=Patrick+Hand&family=Poppins&family=Saira+Extra+Condensed:wght@300&display=swap" rel="stylesheet">
+
+    <!-- --------- ICONS TO BE USED ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- --------- WEBPAGE ICON ---------- -->
+    <link rel="shortcut icon" href="assets/images/kg-logo.jpg" type="image/x-icon">
+
+    <title>Portfolio Website</title>
+
+</head>
+
+
+<body>
+
+<div class="container">
+
+    <!-- --------------- HEADER --------------- -->
+    <nav id="header">
+        <div class="nav-logo">
+            <p class="nav-name">Kshitij</p>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list">
+                    <a href="#home" class="nav-link active-link">Home</a>
+                    <!-- <div class="circle"></div> -->
+                </li>
+                <li class="nav_list">
+                    <a href="#about" class="nav-link">About</a>
+                    <!-- <div class="circle"></div> -->
+                </li>
+                <li class="nav_list">
+                    <a href="#experiences" class="nav-link">Experiences</a>
+                    <!-- <div class="circle"></div> -->
+                </li>
+                <li class="nav_list">
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <!-- <div class="circle"></div> -->
+                </li>
+                <li class="nav_list">
+                    <a href="#contact" class="nav-link">Contact</a>
+                    <!-- <div class="circle"></div> -->
+                </li>
+            </ul>
+        </div>
+        <div class="nav-button">
+            <button class="theme-toggle"><label id="dark-mode-label">Dark Mode</label>
+                <!-- <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" ><title>theme-light-dark</title><path d="M7.5,2C5.71,3.15 4.5,5.18 4.5,7.5C4.5,9.82 5.71,11.85 7.53,13C4.46,13 2,10.54 2,7.5A5.5,5.5 0 0,1 7.5,2M19.07,3.5L20.5,4.93L4.93,20.5L3.5,19.07L19.07,3.5M12.89,5.93L11.41,5L9.97,6L10.39,4.3L9,3.24L10.75,3.12L11.33,1.47L12,3.1L13.73,3.13L12.38,4.26L12.89,5.93M9.59,9.54L8.43,8.81L7.31,9.59L7.65,8.27L6.56,7.44L7.92,7.35L8.37,6.06L8.88,7.33L10.24,7.36L9.19,8.23L9.59,9.54M19,13.5A5.5,5.5 0 0,1 13.5,19C12.28,19 11.15,18.6 10.24,17.93L17.93,10.24C18.6,11.15 19,12.28 19,13.5M14.6,20.08L17.37,18.93L17.13,22.28L14.6,20.08M18.93,17.38L20.08,14.61L22.28,17.15L18.93,17.38M20.08,12.42L18.94,9.64L22.28,9.88L20.08,12.42M9.63,18.93L12.4,20.08L9.87,22.27L9.63,18.93Z" /></svg> -->
+            </button>
+        </div>
+        <div class="nav-button">
+            <a href="/assets/pdf/Resume.pdf" download="CV-kshitij"><button class="btn" >Download CV <i class="uil uil-file-alt"></i></button></a>
+        </div>
+        <div class="nav-menu-btn">
+            <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+    </nav>
+
+ 
+    
+    <!-- -------------- MAIN ---------------- -->
+    <main class="wrapper">
+       <!-- -------------- FEATURED BOX ---------------- -->
+       <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-text-card">
+                <span>Kshitij M Gajbhiye</span>
+            </div>
+            <div class="featured-name">
+                <p>I'm <span id="typedText"></span></p>
+            </div>
+            <div class="featured-text-info">
+                <p>Experienced frontend developer with a passion for creating visually stunning
+                and user-friendly websites.
+                </p>
+            </div>
+            <div class="featured-text-btn">
+                <button class="btn blue-btn">Hire Me</button>
+                <a href="/assets/pdf/Resume.pdf" download="CV-kshitij"><button class="btn">Download CV <i class="uil uil-file-alt"></i></button></a>
+                
+            </div>
+            <div class="social_icons">
+                <div class="icon"><a class="icon-link" href="https://www.instagram.com/kshitij_m_gajbhiye/"><i class="uil uil-instagram-alt"></i></a></div>
+                <div class="icon"><a class="icon-link" href="https://www.linkedin.com/in/kshitij-m-gajbhiye/"><i class="uil uil-linkedin"></i></a></div>
+                <div class="icon"><a class="icon-link" href="https://github.com/kshitijstc"><i class="uil uil-github"></i></a></div>
+                
+            </div>
+          </div>
+          <div class="featured-image">
+            <div class="image">
+                <img src="assets/images/kshitij_photo.jpg">
+            </div>
+          </div>
+          <div class="scroll-icon-box">
+            <a href="#about" class="scroll-btn">
+                <i class="uil uil-mouse-alt"></i>
+                <p>Scroll Down</p>
+            </a>
+          </div>
+
+       </section>
+       <!-- -------------- ABOUT BOX ---------------- -->
+       <section class="section" id="about">
+          <div class="top-header">
+            <h1>About Me</h1>
+          </div>
+          <div class="row">
+            <div class="col">
+                <div class="about-info">
+                    <h3>My introduction</h3>
+                    <p>I am well-versed in HTML, CSS and JavaScript which allows me to implement interactive features and create responsive websites.
+                    Additionally, I have some experience in the field of robotics and working with Fusion 360 for designing and ROS(Noetic) for automation and path planning.
+                    </p>
+                    <div class="about-btn">
+                        <a href="assets/pdf/Resume.pdf" download="CV-kshitij"><button class="btn" id="about-me-button">Download CV <i class="uil uil-import"></i></button></a>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Frontend</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript <i class="fa-brands fa-square-js" style="color: #e9c301;"></i></span>
+                        <span>React</span>
+                    </div>
+                </div>
+
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Programming Languages</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>C</span>
+                        <span>C++</span>
+                    </div>
+                </div>
+
+                
+
+
+                
+
+
+
+                <!-- <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Backend</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>PHP</span>
+                        <span>JAVA</span>
+                        <span>Python</span>
+                        <span>C++</span>
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Database</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>MongoDB</span>
+                    </div>
+                </div> -->
+            </div>
+          </div>
+       </section>
+
+       <!-- -------------- EXPERIENCE BOX ---------------- -->
+
+       <section class="section" id="experiences">
+        <div class="top-header">
+            <h1>Experiences</h1>
+        </div>
+        <div class="experience-container">
+          <div class="experience-box">
+              <img src="assets/images/chegg.png"><br>
+              <h3>Chegg Subject Matter Expert - Mathematics</h3>
+              <label>1+ Year in the field</label>
+              <span class="counter" data-val="105">0</span>
+              <label>Number of Questions Solved</label>
+              
+          </div>
+        </div>
+     </section>
+
+
+       <!-- -------------- PROJECT BOX ---------------- -->
+
+       <section class="section" id="projects">
+          <div class="top-header">
+              <h1>Projects</h1>
+          </div>
+          <div class="project-container">
+            <div class="project-box">
+                <img src="assets/images/portfolio-webite.png" style="width:350px" >
+                <h3>Portfolio Website</h3>
+                <label>Finished Projects</label>
+            </div>
+            <div class="project-box">
+                <img src="assets/images/leadscrew.png" style="width:200px" >
+                <h3 class="yuvaan">Product Design Challenge - INTER IIT</h3>
+                <label >Secured <b>Second</b> Position in Inter IIT Tech Meet 12.0 held at IIT Madras. Made a Leadscrew based Telescopic Shaft that can extend upto 5 metres and retract to a length of 1 metre.</label>
+            </div>
+            <div class="project-box">
+                <img src="assets/images/yuvaan.png" style="width:150px">
+                <h3 class="yuvaan">Yuvaan IITG</h3>
+                <label >Yuvaan is a conceptual model of a Mars rover, made by the team to compete in various international inter-collegiate contests, such as ISRO Robotics Challenge (IRoC) International Rover Challenge (IRC) and European Rover Challenge (ERC).</label>
+            </div>
+          </div>
+       </section>
+
+       <!-- -------------- CONTACT BOX ---------------- -->
+
+       <section class="section" id="contact">
+          <div class="top-header">
+            <h1>Get in touch</h1>
+            <span>Do you have a project in your mind, contact me here</span>
+          </div>
+          <div class="row">
+             <div class="col">
+                <div class="contact-info">
+                    <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                    <p><i class="uil uil-envelope"></i> Email: kshitijstc@gmail.com</p>
+                    <p><i class="uil uil-phone"></i> Mobile No: +91 7828203034</p>
+                </div>
+             </div>
+             <div class="col">
+                <div class="form-control">
+                    <!-- link added from (formsubmit.co) to enable form submission-->
+                    <form action="https://formsubmit.co/8010f8a92228e3dc30e97a7e4df459e2" method="POST">
+                        <div class="form-inputs">
+                            <input type="text" name="Name" class="input-field"  placeholder="Name" required>
+                            <input type="email" name="Email" class="input-field"  placeholder="Email" required>
+                        </div>
+                        <div class="text-area">
+                            <textarea name="Message" placeholder="Message" required></textarea>
+                        </div>
+                        <div class="form-button">
+                            <button class="btn" id="send-btn">Send <i class="uil uil-message"></i></button>
+                        </div>
+                    </form>
+                </div>
+             </div>
+          </div>
+       </section>
+
+    </main>
+
+
+    <!-- --------------- FOOTER --------------- -->
+    <footer>
+        <div class="top-footer">
+            <p>Kshitij M Gajbhiye</p>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#about">About</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#experiences">Experiences</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#projects">Projects</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-social-icons">
+            <div class="icon"><a class="icon-link" href="https://www.instagram.com/kshitij_m_gajbhiye/"><i class="uil uil-instagram-alt"></i></a></div>
+            <div class="icon"><a class="icon-link" href="https://www.linkedin.com/in/kshitij-m-gajbhiye/"><i class="uil uil-linkedin"></i></a></div>
+            <div class="icon"><a class="icon-link" href="https://github.com/kshitijstc"><i class="uil uil-github"></i></a></div>
+            <!-- <div class="icon"><a class="icon-link" href="https://discord.com/channels/@me/1057966002454937650"><i class="fa-brands fa-discord"></i></a></div> -->
+        </div>
+        <div class="bottom-footer">
+            <p>Copyright &copy; <a href="#home" style="text-decoration: none; color:var(--second-color)">Kshitij M Gajbhiye</a> - All rights reserved</p>
+        </div>
+    </footer>
+
+    </div>
+
+
+    <!-- Font Awesome Icon -->
+    <script src="https://kit.fontawesome.com/85cf68e78f.js" crossorigin="anonymous"></script>
+
+    <!-- ----- TYPING JS Link for Typing Effect (Github repo)----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#typedText', {
+          strings: ['a Freelancer','a Frontend Developer'],
+          typeSpeed:90,
+        });
+      </script>
+
+
+
+    <!------- SCROLL REVEAL JS Link For Animation -------->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="assets/js/index.js">
+       
+    </script>
+
+
+</body>
+</html>
