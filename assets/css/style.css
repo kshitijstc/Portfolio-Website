@@ -792,7 +792,7 @@ footer{
     }
 }
 
-@media only screen and (max-width: 420px){
+@media only screen and (max-width: 470px){
     .featured-name{
         font-size: 40px;
     }
