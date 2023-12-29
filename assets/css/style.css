@@ -57,7 +57,7 @@ html{
 /* ----- GLOBAL BUTTON DESIGN ----- */
 .btn{
     font-weight: 550;
-    padding: 10px 25px;
+    padding: 10px 20px;
     background: #efefef;
     border: none;
     border-radius: 10px;
@@ -519,6 +519,10 @@ h3{
     transition: .4s;
     z-index: 1;
 }
+#portfolio-image{
+    width:350px;
+}
+
 .project-box:hover.project-box::after,
 .contact-info:hover.contact-info::after{
     bottom: 0;
@@ -665,8 +669,10 @@ footer{
     /* color: var(--copyright-color); */
 }
 
-/* ----- MEDIA QUERY == 1024px / RESPONSIVE ----- */
-@media only screen and (max-width: 1320px){
+
+/* ----- MEDIA QUERY == 1350px / RESPONSIVE ----- */
+@media only screen and (max-width: 1350px){
+
     .featured-text{
         padding: 0;
     }
@@ -674,15 +680,29 @@ footer{
         width: 320px;
         height: 320px;
     }
-}
+    .nav-logo{
+        margin-top:-12px;
+    }
+    .nav_list{
+        margin:-10px;
+    }
+    .nav-button{
+        padding-left: 25px;
+        margin-top:-15px;
+    }
+    .uil-file-alt{
+        display:none;
+    }
+}   
 
-/* ----- MEDIA QUERY == 900px / RESPONSIVE ----- */
-@media only screen and (max-width: 1100px) {
+/* ----- MEDIA QUERY == 1060px / RESPONSIVE ----- */
+@media only screen and (max-width: 1060px) {
     /* .toggle-theme{
         display:inline;
         width:20%;
         
     } */
+    
     #nav-download-cv{
         display:none;
     }
@@ -710,6 +730,11 @@ footer{
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+    .theme-toggle{
+        justify-content: center;
+        align-items: center; 
+        margin-left:-20px;  
     }
     .uil-file-alt{
         display:none;
@@ -792,6 +817,7 @@ footer{
     }
 }
 
+/* ----- MEDIA QUERY == 470px / RESPONSIVE ----- */
 @media only screen and (max-width: 470px){
     .featured-name{
         font-size: 40px;
@@ -812,4 +838,7 @@ footer{
         font-size:14px;
         margin:-15px;
     }
-}
+    #portfolio-image{
+        width:290px;
+    }
+} 
