@@ -809,6 +809,7 @@ footer{
         width: 100%;
     }
     .footer_menu_list{
-        margin:-20px;
+        font-size:14px;
+        margin:-15px;
     }
 }
