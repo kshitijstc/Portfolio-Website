@@ -790,5 +790,25 @@ footer{
     .footer_menu_list{
         margin:-10px;
     }
-    
+}
+
+@media only screen and (max-width: 420px){
+    .featured-name{
+        font-size: 40px;
+    }
+    .experience-box{
+        width: 100%;
+    }
+    .project-box{
+        width: 100%;
+    }
+    .form-inputs{
+        flex-direction: column;
+    }
+    .input-field{
+        width: 100%;
+    }
+    .footer_menu_list{
+        margin:-20px;
+    }
 }
