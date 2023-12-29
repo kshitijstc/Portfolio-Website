@@ -787,5 +787,8 @@ footer{
     .input-field{
         width: 100%;
     }
+    .footer_menu_list{
+        margin:-10px;
+    }
     
 }
