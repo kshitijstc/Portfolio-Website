@@ -367,8 +367,9 @@ h3{
     border-radius: 20px;
     color:var(--text-color);
 }
-.about-info p{
-    text-align: center;
+.about-info li{
+    margin-left:5%;
+    text-align:left;
     font-size: 15px;
     color:var(--box-color);
 }
