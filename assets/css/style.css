@@ -111,13 +111,8 @@ i{
 body{
     background: var(--body-color);
     color:var(--text-color);
-    --transition-delay:1s;
-
-}
-
-
-
-
+    transition: background 0.8s , color 0.8s;
+} 
 
 .container{
     width: 100%;
@@ -134,7 +129,7 @@ nav{
     line-height: 90px;
     background: var(--body-color);
     padding-inline: 9vw;
-    transition: .3s;
+    transition: 0.8s;
     z-index: 100;
 }
 .nav-logo{
@@ -177,7 +172,7 @@ nav{
 .active-link{
     position: relative;
     color: var(--first-color);
-    transition: .3;
+    transition: 0.8s;
 }
 
 .active-link::after{
@@ -298,7 +293,7 @@ nav{
 }
 @keyframes imgFloat {
     50%{
-        transform: translateY(10px);
+        transform: translateY(12px);
         border-radius: 45% 55% 45% 55%;
     }
 }
@@ -549,6 +544,7 @@ h3{
     border-radius: 10px;
     box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
     overflow: hidden;
+    
 }
 .contact-info>h2{
     color: var(--text-color-second);
@@ -611,7 +607,7 @@ textarea{
     padding: 20px 20px;
     outline: none;
     resize: none;
-    
+
 }
 .form-button>.btn{
     display: flex;
@@ -637,6 +633,7 @@ footer{
     row-gap: 30px;
     background:var(--footer-color);
     padding-block: 40px 60px;
+    transition:0.8s;
 }
 .top-footer p{
     font-size: 25px;

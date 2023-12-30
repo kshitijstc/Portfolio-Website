@@ -21,8 +21,9 @@ handleThemeToggle = () => {
     document.getElementById('dark-mode-label').innerHTML='Light Mode';
     localStorage.setItem('theme','dark-mode');
   }else{
-    localStorage.removeItem('theme');
     document.getElementById('dark-mode-label').innerHTML='Dark Mode';
+    localStorage.removeItem('theme');
+    
   }
 };
 
