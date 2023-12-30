@@ -611,6 +611,7 @@ textarea{
     padding: 20px 20px;
     outline: none;
     resize: none;
+    
 }
 .form-button>.btn{
     display: flex;
@@ -815,6 +816,7 @@ footer{
     .footer_menu_list{
         margin:-10px;
     }
+    
 }
 
 /* ----- MEDIA QUERY == 470px / RESPONSIVE ----- */
@@ -841,4 +843,5 @@ footer{
     #portfolio-image{
         width:290px;
     }
+    
 } 

@@ -34,9 +34,15 @@ themeToggleBtn.addEventListener('click',handleThemeToggle);
 /* ----- NAVIGATION BAR FUNCTION ----- */
 function myMenuFunction(){
     let menuBtn = document.getElementById("myNavMenu");
+    let closebtn = document.querySelector("nav-menu");
+    let navLinks = document.querySelector(".nav-menu");
 
     if(menuBtn.className === "nav-menu"){
+      
       menuBtn.className += " responsive";
+      closebtn.addEventListener("click",()=>{
+        navLinks.style.left ="-100%";
+      })
     } else {
       menuBtn.className = "nav-menu";
     }
