@@ -128,7 +128,7 @@ nav{
     height: 90px;
     line-height: 90px;
     background: var(--body-color);
-    padding-inline: 9vw;
+    padding-inline: 8vw;
     transition: 0.8s;
     z-index: 100;
 }
@@ -836,11 +836,13 @@ footer{
     .footer_menu_list{
         margin:-10px;
     }
-    
 }
 
 /* ----- MEDIA QUERY == 470px / RESPONSIVE ----- */
 @media only screen and (max-width: 470px){
+    /* .container{
+        width:100vw;
+    } */
     .featured-name{
         font-size: 40px;
     }
