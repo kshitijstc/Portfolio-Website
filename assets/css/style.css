@@ -400,6 +400,7 @@ h3{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    align-items:baseline;
     gap: 5px;
 }
 .skills-list span{
@@ -428,7 +429,7 @@ h3{
     align-items: center;
     flex-direction: column;
     width: 45%;
-    height: 350px;
+    height: 380px;
     background: var(--color-white);
     border-radius: 20px;
     box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
@@ -439,15 +440,21 @@ h3{
     color: var(--box-color);
     text-align:center;
 }
-
-.yuvaan{
-    margin:5px;
+.experience-box img{
+    width:250px;
 }
-
 .counter{
     font-weight:500;
     line-height: 2;
     font-size:1.5em;
+}
+#chegg-btn{
+    margin:10px 20px;
+    padding:10px 80px;
+    border-radius:10px;
+    border:none; 
+    background-color:rgb(254, 112, 11);;
+    font-weight: 550;
 }
 
 .experience-box::after{
@@ -465,11 +472,19 @@ h3{
 }
 .experience-box:hover.experience-box h3,
 .experience-box:hover.experience-box img,
+.experience-box:hover.experience-box>a,
 .experience-box:hover.experience-box>span,
 .experience-box:hover.experience-box>label,
 .experience-box:hover.experience-box>p{
     color: var(--color-white);
     z-index: 2;
+}
+#chegg-btn:hover{
+    animation: glow 0.4s ease 0s 1 alternate both;    
+}
+@keyframes glow{
+    0% {background-color:rgb(254, 112, 11);}
+    100% {background-color:rgb(247, 126, 39);}
 }
 
 
@@ -505,7 +520,7 @@ h3{
     color: var(--box-color);
     text-align:center;
 }
-.project-box::after, .contact-info::after{
+.project-box::after,.contact-info::after{
     content: "";
     position: absolute;
     bottom: -100%;
@@ -800,9 +815,11 @@ footer{
         font-size: 40px;
     }
     .experience-box{
+        height:380px;
         width: 100%;
     }
     .project-box{
+        height:380px;
         width: 100%;
     }
     .form-inputs{
