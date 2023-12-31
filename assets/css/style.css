@@ -536,7 +536,7 @@ h3{
     z-index: 1;
 }
 #portfolio-image{
-    width:350px;
+    width:380px;
 }
 
 .project-box:hover.project-box::after,
@@ -861,7 +861,7 @@ footer{
         margin:-15px;
     }
     #portfolio-image{
-        width:290px;
+        width:280px;
     }
     
 } 
