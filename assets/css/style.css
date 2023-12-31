@@ -363,7 +363,7 @@ h3{
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding-block: 30px 70px;
+    padding-block: 40px 70px;
     padding-inline: 20px;
     width: 100%;
     background: var(--color-white);
@@ -395,7 +395,8 @@ h3{
 
 /* ----- ABOUT / SKILLS BOX ----- */
 .skills-box{
-    margin: 10px;
+    margin-left: 30px;
+    /* align-self:center; */
 }
 .skills-header{
     margin-bottom: 30px;
@@ -411,7 +412,7 @@ h3{
     font-size: 16px;
     background: var(--first-color);
     color: var(--color-white);
-    padding: 2px 10px ;
+    padding:2px 10px;
     border-radius: 5px;
 }
 
