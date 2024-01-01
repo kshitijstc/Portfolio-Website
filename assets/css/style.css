@@ -822,11 +822,11 @@ footer{
         font-size: 40px;
     }
     .experience-box{
-        height:380px;
+        height:430px;
         width: 100%;
     }
     .project-box{
-        height:380px;
+        height:430px;
         width: 100%;
     }
     .form-inputs{
@@ -850,9 +850,11 @@ footer{
         font-size: 40px;
     }
     .experience-box{
+        
         width: 100%;
     }
     .project-box{
+        
         width: 100%;
     }
     .form-inputs{
