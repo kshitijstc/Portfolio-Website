@@ -80,7 +80,7 @@ function myMenuFunction(){
 
   window.addEventListener("scroll", () => {
     
-    if(pageYOffset>container.offsetTop - container.offsetHeight -100  && activated ===false){
+    if(pageYOffset>container.offsetTop - container.offsetHeight - 120  && activated ===false){
       counter.innerHTML = 0 ;
       let count=0;
 

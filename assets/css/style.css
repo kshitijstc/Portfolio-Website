@@ -443,10 +443,15 @@ h3{
     box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
     overflow: hidden;
 }
+.experience-box span{
+    margin-top:10px;
+    margin-bottom: -10px;
+}
 .experience-box label{
     font-size: 15px;
     color: var(--box-color);
     text-align:center;
+    margin-bottom: 10px;
 }
 .experience-box img{
     width:250px;
