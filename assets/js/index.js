@@ -72,21 +72,51 @@ function myMenuFunction(){
 
 /* ----  EXPERIENCE COUNTER -------- */
 
-  let valueDisplays=document.querySelector(".counter");
-  let interval=1000;
   
-  
-  let startValue=0;
-  let endValue=parseInt(valueDisplays.getAttribute("data-val"));
-  
-  let duration = Math.floor(interval/endValue);
-  let count = setInterval(function(){
-    startValue += 1;
-    valueDisplays.textContent = startValue;
-    if(startValue == endValue){
-      clearInterval(count);
+  const counter = document.querySelector(".counter");
+  const container = document.querySelector(".experience-container");
+
+  let activated =false;
+
+  window.addEventListener("scroll", () => {
+    
+    if(pageYOffset>container.offsetTop - container.offsetHeight -100  && activated ===false){
+      counter.innerHTML = 0 ;
+      let count=0;
+
+      function updateCount(){
+        const target = parseInt(counter.dataset.count);
+        if(count<target){
+          count++;
+          counter.innerHTML = count;
+          setTimeout(updateCount,10);
+        }else{
+          counter.innerHTML=target;
+        }
+      }
+      updateCount();
+      activated =true;
     }
-  },duration);
+    else if(pageYOffset<container.offsetTop - container.offsetHeight -300 || pageYOffset === 0 && activated===true){
+      counter.innerHTML=0;
+      activated = false;
+    }
+  });
+
+  // let valueDisplays=document.querySelector(".counter");
+  // let interval=1000;
+  
+  // let startValue=0;
+  // let endValue=parseInt(valueDisplays.getAttribute("data-count"));
+  
+  // let duration = Math.floor(interval/endValue);
+  // let count = setInterval(function(){
+  //   startValue += 1;
+  //   valueDisplays.textContent = startValue;
+  //   if(startValue == endValue){
+  //     clearInterval(count);
+  //   }
+  // },duration);
 
 
 
