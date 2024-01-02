@@ -32,6 +32,21 @@ themeToggleBtn.addEventListener('click',handleThemeToggle);
 
 
 
+
+
+
+/* ----- Scroll Bar ---------*/ 
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  let winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+ let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  let scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+
+
+ 
 /* ----- NAVIGATION BAR FUNCTION ----- */
 function myMenuFunction(){
     let menuBtn = document.getElementById("myNavMenu");
@@ -97,10 +112,10 @@ function myMenuFunction(){
       updateCount();
       activated =true;
     }
-    else if(pageYOffset<container.offsetTop - container.offsetHeight -300 || pageYOffset === 0 && activated===true){
-      counter.innerHTML=0;
-      activated = false;
-    }
+    // else if(pageYOffset<container.offsetTop - container.offsetHeight -300 || pageYOffset === 0 && activated===true){
+    //   counter.innerHTML=0;
+    //   activated = false;
+    // }
   });
 
   // let valueDisplays=document.querySelector(".counter");
@@ -138,7 +153,7 @@ function myMenuFunction(){
         origin: 'top',
         distance: '80px',
         duration: 1500,
-        reset: true     
+        // reset: true     
  })
 
 /* -- HOME -- */
@@ -166,7 +181,7 @@ const srLeft = ScrollReveal({
   origin: 'left',
   distance: '80px',
   duration: 2000,
-  reset: true
+  // reset: true
 })
 
 srLeft.reveal('.about-info',{delay: 100})
@@ -177,7 +192,7 @@ const srRight = ScrollReveal({
   origin: 'right',
   distance: '80px',
   duration: 2000,
-  reset: true
+  // reset: true
 })
 
 srRight.reveal('.skills-box',{delay: 100})

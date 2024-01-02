@@ -26,8 +26,16 @@
 
 <div class="container">
 
+    <!-- -----------------BAR------------------- -->
+    
+
     <!-- --------------- HEADER --------------- -->
     <nav id="header">
+        <div class="bar">
+            <div class="progress-container">
+              <div class="progress-bar" id="myBar"></div>
+            </div>
+        </div>
         <div class="nav-logo">
             <p class="nav-name">LOGO</p>
         </div>
@@ -70,9 +78,10 @@
         <div class="nav-menu-btn">
             <i class="uil uil-bars" onclick="myMenuFunction()"></i>
         </div>
+        
     </nav>
 
- 
+    
     
     <!-- -------------- MAIN ---------------- -->
     <main class="wrapper">
@@ -92,7 +101,10 @@
                 </p>
             </div>
             <div class="featured-text-btn">
-                <button class="btn blue-btn">Hire Me</button>
+                <a href="#contact">
+                    <button class="btn blue-btn">Hire Me</button>
+                </a>
+                
 
                 <a href="assets/pdf/Resume.pdf" download="CV-kshitij">
                     <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
@@ -344,7 +356,7 @@
 
     <!-- ----- MAIN JS ----- -->
     <script src="assets/js/index.js">
-       
+        
     </script>
 
 

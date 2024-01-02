@@ -119,6 +119,28 @@ body{
     position: relative;
 }
 
+
+
+/* ------- COLOR BAR --------- */
+.bar {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    padding-inline-start: 0vw;;
+    background-color: #f1f1f1;
+}
+.progress-container {
+    width: 100%;
+    height: 8px;
+    background: #ccc;
+  }
+  .progress-bar {
+    height: 8px;
+    background: #04AA6D;
+    width: 0%;
+  }
+
 /* ----- NAVIGATION BAR ----- */
 nav{
     position: fixed;
@@ -128,7 +150,7 @@ nav{
     height: 90px;
     line-height: 90px;
     background: var(--body-color);
-    padding-inline: 8vw;
+    padding-inline: 5vw;
     transition: 0.8s;
     z-index: 100;
 }
@@ -246,6 +268,7 @@ nav{
     display: flex;
     gap: 20px;
 }
+
 .featured-text-btn>.blue-btn{
     background: var(--first-color);
     color: var(--color-white);
