@@ -104,7 +104,7 @@ function myMenuFunction(){
         if(count<target){
           count++;
           counter.innerHTML = count;
-          setTimeout(updateCount,8);
+          setTimeout(updateCount,7);
         }else{
           counter.innerHTML=target;
         }
