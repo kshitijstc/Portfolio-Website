@@ -152,7 +152,7 @@ nav{
     background: var(--body-color);
     padding-inline: 5vw;
     transition: 0.8s;
-    z-index: 100;
+    z-index: 80;
 }
 .nav-logo{
    position: relative;
