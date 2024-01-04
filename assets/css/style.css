@@ -157,6 +157,10 @@ nav{
 .nav-logo{
    position: relative;
 }
+#logo{
+    margin-top:20px;
+    width:70px;
+}
 .nav-name{
     font-size: 40px;
     font-weight: 600;
