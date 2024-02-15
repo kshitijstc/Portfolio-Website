@@ -46,6 +46,12 @@ function myFunction() {
 }
 
 
+
+// ------- Progress Indicator  -------
+
+
+
+
  
 /* ----- NAVIGATION BAR FUNCTION ----- */
 function myMenuFunction(){
@@ -225,8 +231,6 @@ function scrollActive() {
 }
 
 window.addEventListener('scroll', scrollActive)
-
-
 
 
 

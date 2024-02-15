@@ -122,24 +122,8 @@ body{
 
 
 /* ------- COLOR BAR --------- */
-.bar {
-    position: fixed;
-    top: 0;
-    z-index: 1;
-    width: 100%;
-    padding-inline-start: 0vw;;
-    background-color: #f1f1f1;
-}
-.progress-container {
-    width: 100%;
-    height: 8px;
-    background: #ccc;
-  }
-  .progress-bar {
-    height: 8px;
-    background: #04AA6D;
-    width: 0%;
-  }
+
+
 
 /* ----- NAVIGATION BAR ----- */
 nav{
@@ -153,6 +137,24 @@ nav{
     padding-inline: 5vw;
     transition: 0.8s;
     z-index: 100;
+}
+.bar {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100vw;
+    background-color: #f1f1f1;
+}
+.progress-container {
+    position: fixed;
+    width: 100vw;
+    height: 8px;
+    background: #ccc;
+}
+.progress-bar {
+    height: 8px;
+    background:var(--second-color);
+    width: 0%;
 }
 .nav-logo{
    position: relative;
@@ -561,6 +563,9 @@ h3{
     color: var(--box-color);
     text-align:center;
 }
+.project-box a{
+    text-decoration: none;
+}
 .project-box::after,.contact-info::after{
     content: "";
     position: absolute;
@@ -581,6 +586,7 @@ h3{
 }
 .project-box:hover.project-box img,
 .project-box:hover.project-box i,
+.project-box:hover.project-box>a,
 .project-box:hover.project-box>h3,
 .project-box:hover.project-box>label{
     color: var(--color-white);
