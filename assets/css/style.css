@@ -116,7 +116,7 @@ body{
 } 
 
 .container{
-    width: 100%;
+    width: 100vw;
     position: relative;
 }
 
@@ -137,15 +137,15 @@ nav{
     background: var(--body-color);
     padding-inline: 5vw;
     transition: 0.8s;
-    z-index: 100;
+    z-index: 5;
 }
-/* .bar {
+.bar {
     position: fixed;
     top: 0;
     z-index: 1;
     width: 100vw;
     background-color: #f1f1f1;
-} */
+}
 .progress-container {
     position: fixed;
     width: 100vw;
