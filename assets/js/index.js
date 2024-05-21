@@ -10,7 +10,7 @@ const theme = localStorage.getItem('theme');
 if(theme){
   document.getElementById('dark-mode-label').innerHTML='Light Mode';
   document.body.classList.add(theme);
-  
+
 }
 
 // handlers
