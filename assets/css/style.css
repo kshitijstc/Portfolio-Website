@@ -572,6 +572,9 @@ h3{
 #portfolio-image{
     width:380px;
 }
+.project-img{
+    border-radius: 0.5rem;
+}
 
 .project-box:hover.project-box::after,
 .contact-info:hover.contact-info::after{
