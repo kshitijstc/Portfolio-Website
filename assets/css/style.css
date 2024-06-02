@@ -183,14 +183,15 @@ nav{
     padding-inline: 15px;
     margin-inline: 20px;
 }
-.nav-menu-btn{
+
+#hamburger{
     display: none;
 }
 .theme-toggle-icon{
     display:none;
 }
-.nav-menu-btn i{
-    font-size: 28px;
+#hamburger i{
+    font-size: 25px;
     cursor: pointer;
 }
 .active-link{
@@ -784,7 +785,7 @@ footer{
     .nav_menu_list{
         flex-direction: column;
     }
-    .nav-menu-btn{
+    #hamburger {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -850,6 +851,9 @@ footer{
 /* ----- MEDIA QUERY == 540px / RESPONSIVE ----- */
 
 @media only screen and (max-width: 540px){
+    .nav-logo{
+        display:none;
+    }
     .featured-name{
         font-size: 40px;
     }
@@ -902,5 +906,4 @@ footer{
     #portfolio-image{
         width:280px;
     }
-    
 } 
