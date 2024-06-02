@@ -360,6 +360,7 @@ nav{
 .col{
     display: flex;
     width: 50%;
+    flex-wrap: wrap;
 }
 
 /* -- ## --- RESUABLE CSS -- ## -- */
@@ -421,20 +422,21 @@ h3{
 /* ----- ABOUT / SKILLS BOX ----- */
 .skills-box{
     margin-left: 30px;
+    margin-bottom: 10px;
     /* align-self:center; */
 }
 .skills-header{
-    margin-bottom: 30px;
+    margin-bottom: -0.6rem;
 }
 .skills-list{
     display: flex;
     flex-direction: column;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap; 
     align-items:center;
     gap: 4px;
 }
 .skills-list span{
-    width:8em;
+    width:7.6em;
     font-size: 16px;
     background: var(--first-color);
     color: var(--color-white);
