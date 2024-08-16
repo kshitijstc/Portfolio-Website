@@ -488,6 +488,7 @@ h3{
     font-size:1.5em;
 }
 #chegg-btn{
+    cursor: pointer;
     margin:10px 20px;
     padding:10px 80px;
     border-radius:10px;
@@ -518,6 +519,7 @@ h3{
     color: var(--color-white);
     z-index: 2;
 }
+
 #chegg-btn:hover{
     animation: glow 0.4s ease 0s 1 alternate both;    
 }
